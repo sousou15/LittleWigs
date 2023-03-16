@@ -2,7 +2,7 @@ local L = BigWigs:NewBossLocale("Halls of Infusion Trash", "esES") or BigWigs:Ne
 if not L then return end
 if L then
 	L.custom_on_autotalk = "Hablar automáticamente"
-	--L.custom_on_autotalk_desc = "Instantly selects the gossip options to get profession buffs."
+	L.custom_on_autotalk_desc = "Selecciona instantáneamente las opciones gossip para obtener las mejoras de profesión."
 
 	L.primalist_ravager = "Primalista devastador"
 	L.primalist_geomancer = "Geomántico primalista"
